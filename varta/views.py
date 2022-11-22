@@ -29,7 +29,7 @@ def loginPage(request):
 		try:
 			user = Use.objects.get(username=username)
 		except:
-			messages.error(request,'user does not exist')
+			pass
 
 		user  = authenticate(request,username=username,password=password)
 
