@@ -1,1 +1,1 @@
-django web application
+django web application with rebust apis 
